@@ -1,0 +1,13 @@
+Sample using https://docs.docker.com/develop/develop-images/multistage-build[multistage build] with tests. +
+Check tasks and commands on Makefile.
+
+#### Why?
+
+We are studying / discussing what would be better: different docker files for prod / test or put in the same file using https://docs.docker.com/develop/develop-images/multistage-build[multistage build].
+
+#### Stack:
+
+* https://gradle.org/[Gradle]
+* http://groovy-lang.org/[Groovy]
+* http://spockframework.org/[Spock]
+* https://www.docker.com/[Docker]

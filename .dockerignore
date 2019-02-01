@@ -1,0 +1,14 @@
+.git/
+.gradle/
+build/
+out/
+
+.editorconfig
+.gitignore
+Dockerfile
+Makefile
+
+*.iml
+*.ipr
+*.iws
+*.adoc
