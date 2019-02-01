@@ -32,3 +32,8 @@ docker-builder-sh: ## enter in the build stage with 'sh'
 
 docker-images: ## show docker images
 	docker image ls | egrep sample
+
+docker-rmi: ## remove images
+	 @docker rmi -f sample:latest 
+	 @docker rmi -f sample-test:latest
+	 @docker rmi -f sample-builder:latest
